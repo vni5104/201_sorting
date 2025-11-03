@@ -27,6 +27,10 @@ namespace Sorting
             Console.WriteLine("{ " + string.Join(", ", arr2) + " }");
         }
 
+        /// <summary>
+        /// Student handmade bubble sort methods
+        /// </summary>
+        /// <param name="a">int array to be sorted</param>
         static void StudentBubbleSort(int[] a)
         {
             for (int i = 0; i < a.Length; i++)
