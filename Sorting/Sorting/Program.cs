@@ -20,6 +20,11 @@ namespace Sorting
 
             //print and sort arr2
             Console.WriteLine("\nContents of arr2 before sorting:");
+            Console.WriteLine("{ " + string.Join(", ", arr2) + " }");
+
+            Array.Sort(arr2);
+            Console.WriteLine("Contents of arr2 after sorting:");
+            Console.WriteLine("{ " + string.Join(", ", arr2) + " }");
         }
 
         static void StudentBubbleSort(int[] a)
